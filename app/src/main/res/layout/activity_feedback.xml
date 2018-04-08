@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    tools:context="com.example.cheshta.nirmalhindan.navigationActivities.FeedbackActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="FEEDBACK"
+                android:layout_gravity="center"
+                android:textSize="40sp"
+                android:textColor="#ff0000"/>
+            <TextView
+                android:id="@+id/ft2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/ft1"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="Enter your feedback here"
+                android:fontFamily="serif-monospace"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+                android:layout_marginTop="50dp"
+                android:textSize="23dp"/>
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/fe1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ft2"
+                android:hint="SUBJECT"
+                android:layout_marginTop="20dp"
+                android:maxWidth="70dp"/>
+            <EditText
+                android:id="@+id/fe2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fe1"
+                android:hint="BODY"
+                android:layout_marginTop="10dp"
+                android:maxWidth="70dp"/>
+            <Button
+                android:id="@+id/fb1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:background="@drawable/button_in_navigation_activities"
+                android:layout_below="@+id/fe2"
+                android:layout_marginTop="40dp"/>
+
+
+
+        </LinearLayout>
+
+        <include layout="@layout/layout_bottom_navigation"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908806945119",
+    "firebase_url": "https://nirmal-hindon.firebaseio.com",
+    "project_id": "nirmal-hindon",
+    "storage_bucket": "nirmal-hindon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908806945119:android:a69ba37d48373a75",
+        "android_client_info": {
+          "package_name": "com.example.cheshta.nirmalhindan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908806945119-07am73eorofbl9d8fplfsioko80feg7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cheshta.nirmalhindan",
+            "certificate_hash": "839102b97c0e73984f8661724af12e1188ab896b"
+          }
+        },
+        {
+          "client_id": "908806945119-td11m9vl7apa3dk7u9h2amrt4df1tkb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYDkX5qBd3gS7YhBLx5eexQeDIvepFFQ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908806945119-td11m9vl7apa3dk7u9h2amrt4df1tkb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

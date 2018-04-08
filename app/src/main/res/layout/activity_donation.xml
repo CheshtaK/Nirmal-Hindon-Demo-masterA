@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_background"
+    tools:context="com.example.cheshta.nirmalhindan.navigationActivities.DonationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+               <TextView
+                   android:id="@+id/tvDonationHead"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="NIRMAL HINDON"
+                   android:layout_gravity="center"
+                   android:textStyle="bold"
+                   android:textSize="40dp"
+                   android:fontFamily="serif"
+                   android:layout_marginBottom="30dp"
+                   android:textColor="#ff0000"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Bank Details"
+                   android:layout_gravity="center"
+                   android:textSize="30dp"
+                   android:layout_marginBottom="10dp"
+                   android:textColor="#ffffff"
+                   android:textStyle="bold"
+                   android:fontFamily="serif-monospace"
+                   />
+               <android.support.design.widget.TextInputLayout
+                   android:id="@+id/bnameWrapper"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp">
+
+                   <EditText
+                       android:id="@+id/bname"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textEmailAddress"
+                       android:hint="Bank Name"/>
+
+               </android.support.design.widget.TextInputLayout>
+               <android.support.design.widget.TextInputLayout
+                   android:id="@+id/AccnoWrapper"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp">
+
+                   <EditText
+                       android:id="@+id/AccNO"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textEmailAddress"
+                       android:hint="Account Numer"/>
+
+               </android.support.design.widget.TextInputLayout>
+               <android.support.design.widget.TextInputLayout
+                   android:id="@+id/IFSCWrapper"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp">
+
+                   <EditText
+                       android:id="@+id/IFSC"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textEmailAddress"
+                       android:hint="IFSC_CODE"/>
+
+               </android.support.design.widget.TextInputLayout>
+               <Button
+                   android:id="@+id/btnSubmit"
+                   android:layout_width="200dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="50dp"
+                   android:textSize="18sp"
+                   android:textColor="#ffffff"
+                   android:background="@drawable/button_in_navigation_activities"
+                   android:layout_gravity="center"
+                   android:text="Submit Response" />
+
+           </LinearLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_bottom_navigation"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

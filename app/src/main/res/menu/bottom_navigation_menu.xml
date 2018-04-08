@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_gal"
+        android:icon="@drawable/gallery"
+        android:title="Gallery"/>
+
+    <item
+        android:id="@+id/ic_event"
+        android:icon="@drawable/ic_event"
+        android:title="Event"/>
+
+    <item
+        android:id="@+id/ic_yojana"
+        android:icon="@drawable/ic_yojana"
+        android:title="Yojana"/>
+
+    <item
+        android:id="@+id/ic_donation"
+        android:icon="@drawable/ic_donation"
+        android:title="Donation"/>
+
+    <item
+        android:id="@+id/ic_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:title="Feedback"/>
+
+</menu>
