@@ -101,6 +101,7 @@ public class CustomiseGallery extends RecyclerView.Adapter<CustomiseGallery.myVi
                     String key = holder.key.getText().toString();
                     ref.child(key).removeValue();
                     adminlist.remove(position);
+                    notifyDataSetChanged();
                     notifyItemRangeChanged(position, adminlist.size());
                     return false;
                 }
